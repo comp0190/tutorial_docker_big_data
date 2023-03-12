@@ -1,0 +1,12 @@
+loss: 'categorical_crossentropy'
+optimizer: 'adam'
+metrics: 'accuracy'
+
+batch_size: 256
+epochs: 30
+validation_split: 0.2
+
+model_name: 'mnist_cnn_1.h5'
+model_path: './models'
+
+logs_path: './results'
