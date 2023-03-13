@@ -9,4 +9,5 @@ validation_split: 0.2
 model_name: 'mnist_cnn_1.h5'
 model_path: './models'
 
-logs_path: './results'
+results_file: 'mnist_cnn_1_results.txt'
+results_path: './results'
